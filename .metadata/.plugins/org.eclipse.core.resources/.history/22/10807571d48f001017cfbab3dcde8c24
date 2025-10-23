@@ -1,0 +1,16 @@
+package basic;
+
+public class Classbalaji {
+	
+	
+	 void suraj() {
+		System.out.print("suraj");
+		
+	}
+
+	public static void main(String[] args) {
+	Classbalaji obj=new Classbalaji();
+	obj.suraj();
+	}
+
+}

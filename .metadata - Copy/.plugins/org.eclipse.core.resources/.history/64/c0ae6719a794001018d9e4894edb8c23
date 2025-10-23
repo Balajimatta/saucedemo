@@ -1,0 +1,64 @@
+package basic;
+
+public class Classbalaji {
+	
+	Classbalaji(String n, int m){
+		String name = n;
+		
+				
+		
+	}
+	
+	
+	
+	 void suraj() {
+		System.out.print("suraj");
+		
+	}
+
+	public static void main(String[] args) {
+	Classbalaji obj=new Classbalaji();
+	obj.suraj();
+	}
+
+}
+//
+//class BankAccount {
+//    // private variable (hidden from outside)
+//    private double balance;
+//
+//    // method to deposit money
+//    public void deposit(double amount) {
+//        if (amount > 0) {
+//            balance += amount;
+//            System.out.println("Deposited: " + amount);
+//        } else {
+//            System.out.println("Invalid deposit amount!");
+//        }
+//    }
+//
+//    // method to withdraw money
+//    public void withdraw(double amount) {
+//        if (amount > 0 && amount <= balance) {
+//            balance -= amount;
+//            System.out.println("Withdrawn: " + amount);
+//        } else {
+//            System.out.println("Insufficient balance or invalid amount!");
+//        }
+//    }
+//
+//    // method to show balance (not a getter, just controlled access)
+//    public void printBalance() {
+//        System.out.println("Current Balance: " + balance);
+//    }
+//}
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        BankAccount acc = new BankAccount();
+//
+//        acc.deposit(5000);     // deposit money
+//        acc.withdraw(2000);    // withdraw money
+//        acc.printBalance();    // only way to see balance
+//    }
+//}
